@@ -91,7 +91,9 @@ vendor/lib64/libRGBC.so
 vendor/lib64/libSonyIMX471RmscLibrary.so
 
 # Display (Pixelworks)
+odm/etc/displaycolorfeaturecfg.xml
 odm/etc/iris_configs.xml
+odm/etc/plugin_config.xml
 
 # Display (Pixelworks firmware)
 odm/firmware/iris7p.fw
