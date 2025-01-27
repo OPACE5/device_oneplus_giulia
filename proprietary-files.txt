@@ -1,11 +1,19 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Ace 3 Pro (PJX110_14.1.0.209(CN01)).
+## are from OnePlus Ace 3 Pro (PJX110_15.0.0.301(CN01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/FTM/acdb_cal.acdb
 odm/etc/acdbdata/FTM/workspaceFileXml.qwsp
 odm/etc/acdbdata/acdb_cal.acdb
+
+# ADSP
+odm/lib/rfsa/adsp/capi_opve_v2_0.so
+odm/lib/rfsa/adsp/libsixth_rx_v3_5_21.so
+
+# Audio
+odm/lib64/lib_lvacfs.so
+odm/lib64/liblvacfs_wrapper.so
 
 # Audio params
 odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat
@@ -63,6 +71,11 @@ odm/etc/lvacfs_params/2mic/audiozoom_9.txt
 
 # Camera
 odm/etc/camera/CameraHWConfiguration.config
+odm/etc/camera/basictone/lmt/LMTLut0
+odm/etc/camera/basictone/lmt/LMTLut1
+odm/etc/camera/basictone/setting_dolby/Ditherout
+odm/etc/camera/basictone/setting_dolby/FromXml
+odm/etc/camera/basictone/setting_dolby/SimTool.ini
 odm/etc/camera/camera_engmode.xml
 odm/etc/camera/cfr_bin/CFR_imx355.bin
 odm/etc/camera/cfr_bin/CFR_imx890.bin
@@ -83,17 +96,76 @@ odm/etc/camera/config/pickref_params.xml
 odm/etc/camera/config/s5k3p9
 odm/etc/camera/config/sr_params.xml
 odm/etc/camera/config/video_beauty_default_config
+odm/etc/camera/facesr_hd_composite_ff_ref_4.3.19_qcom8650_qnn_segqnn.model
 odm/etc/camera/settings_fdc.txt
 odm/etc/camera/settings_fdc_lite.txt
 odm/firmware/sipa.bin
+odm/lib64/camera/awb_parameter_qtech_s5k3p9.bin
+odm/lib64/camera/awb_parameter_sunny_imx355.bin
+odm/lib64/camera/awb_parameter_sunny_imx890.bin
+odm/lib64/camera/awb_parameter_sunny_ov02b.bin
+odm/lib64/camera/com.qti.sensor.imx355.so
+odm/lib64/camera/com.qti.sensor.imx890.so
+odm/lib64/camera/com.qti.sensor.ov02b.so
+odm/lib64/camera/com.qti.sensor.s5k3p9.so
+odm/lib64/camera/com.qti.sensormodule.qtech_s5k3p9.bin
+odm/lib64/camera/com.qti.sensormodule.sunny_imx355.bin
+odm/lib64/camera/com.qti.sensormodule.sunny_imx890.bin
+odm/lib64/camera/com.qti.sensormodule.sunny_ov02b.bin
+odm/lib64/camera/com.qti.tuned.qtech_s5k3p9.bin
+odm/lib64/camera/com.qti.tuned.sunny_imx355.bin
+odm/lib64/camera/com.qti.tuned.sunny_imx890.bin
+odm/lib64/camera/com.qti.tuned.sunny_ov02b.bin
 odm/lib64/libremosaic_wrapper.so
+odm/lib64/libVDBayerHDR.so
+odm/lib64/libVDExternal.so
+odm/lib64/libVDPostureDetection.so
+odm/lib64/libVDSuperPhotoAPI.so
+odm/lib64/libVDUpScale.so
 vendor/lib64/libRGBC.so
 vendor/lib64/libSonyIMX471RmscLibrary.so
 
+# Charger
+odm/firmware/fastchg/23814/charging_hyper_mode_config.txt
+odm/firmware/fastchg/23814/silicon_1_charging_hyper_mode_config.txt
+odm/firmware/fastchg/charge_time_config.csv
+odm/firmware/fastchg/silicon_1_batt_si_loss_config_table.txt
+odm/firmware/fastchg/silicon_1_bms_heating_config.txt
+odm/firmware/fastchg/silicon_1_charge_time_config.csv
+odm/firmware/fastchg/silicon_1_charging_thermal_config_default.txt
+odm/firmware/fastchg/silicon_1_smart_chg_config_table.txt
+
 # Display (Pixelworks)
+odm/bin/hw/vendor.pixelworks.hardware.feature-service
+odm/bin/irisConfig
 odm/etc/displaycolorfeaturecfg.xml
 odm/etc/iris_configs.xml
+odm/etc/init/vendor.pixelworks.hardware.feature-service-lazy.rc
 odm/etc/plugin_config.xml
+odm/etc/vintf/manifest/vendor.pixelworks.hardware.display-service.xml
+odm/etc/vintf/manifest/vendor.pixelworks.hardware.feature-service.xml
+odm/lib64/libpwsoftirisPCS.so
+odm/lib64/libpwirisIoctlWrapper.so
+odm/lib64/libpwirisPCS.so
+odm/lib64/libpwiriscalibrate.so
+odm/lib64/libpwirisfeature.so
+odm/lib64/libpwirisfeaturehal.so
+odm/lib64/libpwirishalwrapper.so
+odm/lib64/libpwirispq.so
+odm/lib64/libpwirisservicei7.so
+odm/lib64/libpwirisservicei7p.so
+odm/lib64/libpwirisservicesi.so
+odm/lib64/vendor.pixelworks.hardware.display-V1-ndk.so
+odm/lib64/vendor.pixelworks.hardware.display-impl-i7.so
+odm/lib64/vendor.pixelworks.hardware.display-impl-i7p.so
+odm/lib64/vendor.pixelworks.hardware.display-impl-si.so
+odm/lib64/vendor.pixelworks.hardware.display-translate-V2-ndk.so
+odm/lib64/vendor.pixelworks.hardware.display@1.0.so
+odm/lib64/vendor.pixelworks.hardware.display@1.1.so
+odm/lib64/vendor.pixelworks.hardware.display@1.2.so
+odm/lib64/vendor.pixelworks.hardware.feature-V1-ndk.so
+odm/lib64/vendor.pixelworks.hardware.feature@1.0.so
+odm/lib64/vendor.pixelworks.hardware.feature@1.1.so
 
 # Display (Pixelworks firmware)
 odm/firmware/iris7p.fw
@@ -102,6 +174,31 @@ odm/firmware/iris7p_ccf2.fw
 odm/firmware/iris7p_ccf3.fw
 odm/firmware/pxlw_i7p_panel_AA567_P_3_A0004_dsc_cmd.fw
 odm/firmware/pxlw_i7p_vtdr6130_fhd_plus_vid.fw
+
+# Fingerprint firmware
+odm/vendor/firmware/uff_gx.b00
+odm/vendor/firmware/uff_gx.b01
+odm/vendor/firmware/uff_gx.b02
+odm/vendor/firmware/uff_gx.b03
+odm/vendor/firmware/uff_gx.b04
+odm/vendor/firmware/uff_gx.b05
+odm/vendor/firmware/uff_gx.b06
+odm/vendor/firmware/uff_gx.b07
+odm/vendor/firmware/uff_gx.b08
+odm/vendor/firmware/uff_gx.mdt
+odm/vendor/firmware/uff_spi.b00
+odm/vendor/firmware/uff_spi.b01
+odm/vendor/firmware/uff_spi.b02
+odm/vendor/firmware/uff_spi.b03
+odm/vendor/firmware/uff_spi.b04
+odm/vendor/firmware/uff_spi.b05
+odm/vendor/firmware/uff_spi.b06
+odm/vendor/firmware/uff_spi.b07
+odm/vendor/firmware/uff_spi.b08
+odm/vendor/firmware/uff_spi.mdt
+
+# RIL
+vendor/lib64/vendor.oplus.hardware.radio-V2-ndk_platform.so
 
 # Sensors config
 odm/etc/sensor/config/corvette_qrd_ois_system.json
@@ -132,6 +229,10 @@ odm/firmware/tp/23814/model.tflite
 odm/firmware/tp/23814/sys_edge_touch_config.xml
 odm/firmware/tp/23814/sys_touch_algo_feature_config.xml
 odm/firmware/tp/23814/sys_touch_function_feature_config.xml
+
+# UFS
+odm/firmware/ufs/MICRON-MT001TAYAX8U40.bin
+odm/firmware/ufs/SAMSUNG-KLUFG4NHHB-F0G1.bin
 
 # WiFi
 odm/etc/wifi/kiwi/bdwlan.elf
