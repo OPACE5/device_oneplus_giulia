@@ -2,11 +2,11 @@
 vendor.sensors.als_correction.grabrect=968 0 1072 104
 
 # Bluetooth
-bluetooth.device.default_name=OnePlus Ace 3 Pro
+bluetooth.device.default_name=OnePlus Ace 5
 
 # Graphics
 ro.surface_flinger.set_idle_timer_ms=60
 ro.surface_flinger.set_touch_timer_ms=120
 
 # USB
-vendor.usb.product_string=OnePlus Ace 3 Pro
+vendor.usb.product_string=OnePlus Ace 5

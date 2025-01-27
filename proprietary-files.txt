@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Ace 3 Pro (PJX110_15.0.0.301(CN01)).
+## are from OnePlus Ace 5 (PKG110_15.0.0.405(CN01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -8,84 +8,66 @@ odm/etc/acdbdata/FTM/workspaceFileXml.qwsp
 odm/etc/acdbdata/acdb_cal.acdb
 
 # ADSP
-odm/lib/rfsa/adsp/capi_opve_v2_0.so
-odm/lib/rfsa/adsp/libsixth_rx_v3_5_21.so
+odm/lib/rfsa/adsp/libsixth_rx_v3.so
 
 # Audio
-odm/lib64/lib_lvacfs.so
-odm/lib64/liblvacfs_wrapper.so
+odm/lib64/liboprec_audrec.so
+odm/lib64/liboprec_audrec_wrapper.so
 
 # Audio params
-odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat
-odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID11_HE.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID12_HE_APP1.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID13_HE_APP2.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID14_HE_Cam.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID15_HE_Conference.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID16_HE_Fast.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID17_HE_Interview.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID18_HE_Unprocess.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID19_HE_Voice.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID1_MIC_Normal.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID20_HE_VR.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID21_USB_Normal.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID22_USB_APP1.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID23_BT_Normal.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID24_BT_APP1.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID25_2mic_zoom.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID2_MIC_APP1.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID3_MIC_APP2.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID4_MIC_Cam.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID5_MIC_Conference.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID6_MIC_Fast.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID7_MIC_Interview.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID8_MIC_Unprocess.txt
-odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID9_MIC_Voice.txt
-odm/etc/lvacfs_params/2mic/audiozoom_1.txt
-odm/etc/lvacfs_params/2mic/audiozoom_10.txt
-odm/etc/lvacfs_params/2mic/audiozoom_11.txt
-odm/etc/lvacfs_params/2mic/audiozoom_12.txt
-odm/etc/lvacfs_params/2mic/audiozoom_13.txt
-odm/etc/lvacfs_params/2mic/audiozoom_14.txt
-odm/etc/lvacfs_params/2mic/audiozoom_15.txt
-odm/etc/lvacfs_params/2mic/audiozoom_16.txt
-odm/etc/lvacfs_params/2mic/audiozoom_17.txt
-odm/etc/lvacfs_params/2mic/audiozoom_18.txt
-odm/etc/lvacfs_params/2mic/audiozoom_19.txt
-odm/etc/lvacfs_params/2mic/audiozoom_2.txt
-odm/etc/lvacfs_params/2mic/audiozoom_20.txt
-odm/etc/lvacfs_params/2mic/audiozoom_21.txt
-odm/etc/lvacfs_params/2mic/audiozoom_22.txt
-odm/etc/lvacfs_params/2mic/audiozoom_23.txt
-odm/etc/lvacfs_params/2mic/audiozoom_24.txt
-odm/etc/lvacfs_params/2mic/audiozoom_25.txt
-odm/etc/lvacfs_params/2mic/audiozoom_3.txt
-odm/etc/lvacfs_params/2mic/audiozoom_4.txt
-odm/etc/lvacfs_params/2mic/audiozoom_5.txt
-odm/etc/lvacfs_params/2mic/audiozoom_6.txt
-odm/etc/lvacfs_params/2mic/audiozoom_7.txt
-odm/etc/lvacfs_params/2mic/audiozoom_8.txt
-odm/etc/lvacfs_params/2mic/audiozoom_9.txt
+odm/etc/oprec_audrec_params/oprec_audrec_config.txt
+odm/etc/oprec_audrec_params/oprec_camback_calibration.bin
+odm/etc/oprec_audrec_params/oprec_camfront_calibration.bin
+odm/etc/oprec_audrec_params/oprec_record_ID10_HE_App1.bin
+odm/etc/oprec_audrec_params/oprec_record_ID10_HE_App1.txt
+odm/etc/oprec_audrec_params/oprec_record_ID11_HE_Unprocess.bin
+odm/etc/oprec_audrec_params/oprec_record_ID11_HE_Unprocess.txt
+odm/etc/oprec_audrec_params/oprec_record_ID12_HE_VR.bin
+odm/etc/oprec_audrec_params/oprec_record_ID12_HE_VR.txt
+odm/etc/oprec_audrec_params/oprec_record_ID13_HE_USB.bin
+odm/etc/oprec_audrec_params/oprec_record_ID13_HE_USB.txt
+odm/etc/oprec_audrec_params/oprec_record_ID14_HE_USBApp1.bin
+odm/etc/oprec_audrec_params/oprec_record_ID14_HE_USBApp1.txt
+odm/etc/oprec_audrec_params/oprec_record_ID15_HE_BT.bin
+odm/etc/oprec_audrec_params/oprec_record_ID15_HE_BT.txt
+odm/etc/oprec_audrec_params/oprec_record_ID16_HE_BTApp1.bin
+odm/etc/oprec_audrec_params/oprec_record_ID16_HE_BTApp1.txt
+odm/etc/oprec_audrec_params/oprec_record_ID17_Concert.bin
+odm/etc/oprec_audrec_params/oprec_record_ID17_Concert.txt
+odm/etc/oprec_audrec_params/oprec_record_ID1_MIC_normal.bin
+odm/etc/oprec_audrec_params/oprec_record_ID1_MIC_normal.txt
+odm/etc/oprec_audrec_params/oprec_record_ID2_MIC_App1.bin
+odm/etc/oprec_audrec_params/oprec_record_ID2_MIC_App1.txt
+odm/etc/oprec_audrec_params/oprec_record_ID3_CamFront.bin
+odm/etc/oprec_audrec_params/oprec_record_ID3_CamFront.txt
+odm/etc/oprec_audrec_params/oprec_record_ID4_CamBack.bin
+odm/etc/oprec_audrec_params/oprec_record_ID4_CamBack.txt
+odm/etc/oprec_audrec_params/oprec_record_ID5_MIC_Conference.bin
+odm/etc/oprec_audrec_params/oprec_record_ID5_MIC_Conference.txt
+odm/etc/oprec_audrec_params/oprec_record_ID6_VR.bin
+odm/etc/oprec_audrec_params/oprec_record_ID6_VR.txt
+odm/etc/oprec_audrec_params/oprec_record_ID7_Interview.bin
+odm/etc/oprec_audrec_params/oprec_record_ID7_Interview.txt
+odm/etc/oprec_audrec_params/oprec_record_ID8_Unprocess.bin
+odm/etc/oprec_audrec_params/oprec_record_ID8_Unprocess.txt
+odm/etc/oprec_audrec_params/oprec_record_ID99_Bypass.bin
+odm/etc/oprec_audrec_params/oprec_record_ID99_Bypass.txt
+odm/etc/oprec_audrec_params/oprec_record_ID9_HE.bin
+odm/etc/oprec_audrec_params/oprec_record_ID9_HE.txt
 
 # Camera
 odm/etc/camera/CameraHWConfiguration.config
-odm/etc/camera/basictone/lmt/LMTLut0
-odm/etc/camera/basictone/lmt/LMTLut1
-odm/etc/camera/basictone/setting_dolby/Ditherout
-odm/etc/camera/basictone/setting_dolby/FromXml
-odm/etc/camera/basictone/setting_dolby/SimTool.ini
 odm/etc/camera/camera_engmode.xml
 odm/etc/camera/cfr_bin/CFR_imx355.bin
-odm/etc/camera/cfr_bin/CFR_imx890.bin
+odm/etc/camera/cfr_bin/CFR_imx906.bin
 odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
-odm/etc/camera/cfr_bin/CFR_s5k3p9.bin
+odm/etc/camera/cfr_bin/CFR_s5kjn5_giulia.bin
 odm/etc/camera/config/camera_third_party_feature_config.protobuf
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/imx355
-odm/etc/camera/config/imx890
+odm/etc/camera/config/imx480
+odm/etc/camera/config/imx906
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
@@ -93,99 +75,63 @@ odm/etc/camera/config/oplus_camera_preview_decision_config.json
 odm/etc/camera/config/oplus_preview_decision_params.json
 odm/etc/camera/config/ov02b
 odm/etc/camera/config/pickref_params.xml
-odm/etc/camera/config/s5k3p9
 odm/etc/camera/config/sr_params.xml
 odm/etc/camera/config/video_beauty_default_config
-odm/etc/camera/facesr_hd_composite_ff_ref_4.3.19_qcom8650_qnn_segqnn.model
+odm/etc/camera/facesr_hd_composite_ff_4.3.20_qcom8650_qnn_segqnn_qnn2.13.1_qualitybin.model
 odm/etc/camera/settings_fdc.txt
 odm/etc/camera/settings_fdc_lite.txt
 odm/firmware/sipa.bin
-odm/lib64/camera/awb_parameter_qtech_s5k3p9.bin
 odm/lib64/camera/awb_parameter_sunny_imx355.bin
-odm/lib64/camera/awb_parameter_sunny_imx890.bin
+odm/lib64/camera/awb_parameter_sunny_imx480.bin
+odm/lib64/camera/awb_parameter_sunny_imx906.bin
 odm/lib64/camera/awb_parameter_sunny_ov02b.bin
 odm/lib64/camera/com.qti.sensor.imx355.so
-odm/lib64/camera/com.qti.sensor.imx890.so
-odm/lib64/camera/com.qti.sensor.ov02b.so
-odm/lib64/camera/com.qti.sensor.s5k3p9.so
-odm/lib64/camera/com.qti.sensormodule.qtech_s5k3p9.bin
+odm/lib64/camera/com.qti.sensor.imx480.so
+odm/lib64/camera/com.qti.sensor.imx906.so
 odm/lib64/camera/com.qti.sensormodule.sunny_imx355.bin
-odm/lib64/camera/com.qti.sensormodule.sunny_imx890.bin
+odm/lib64/camera/com.qti.sensormodule.sunny_imx480.bin
+odm/lib64/camera/com.qti.sensormodule.sunny_imx906.bin
 odm/lib64/camera/com.qti.sensormodule.sunny_ov02b.bin
-odm/lib64/camera/com.qti.tuned.qtech_s5k3p9.bin
+odm/lib64/camera/com.qti.sensor.ov02b.so
 odm/lib64/camera/com.qti.tuned.sunny_imx355.bin
-odm/lib64/camera/com.qti.tuned.sunny_imx890.bin
+odm/lib64/camera/com.qti.tuned.sunny_imx480.bin
+odm/lib64/camera/com.qti.tuned.sunny_imx906.bin
 odm/lib64/camera/com.qti.tuned.sunny_ov02b.bin
 odm/lib64/libremosaic_wrapper.so
 odm/lib64/libVDBayerHDR.so
 odm/lib64/libVDExternal.so
-odm/lib64/libVDPostureDetection.so
 odm/lib64/libVDSuperPhotoAPI.so
-odm/lib64/libVDUpScale.so
 vendor/lib64/libRGBC.so
 vendor/lib64/libSonyIMX471RmscLibrary.so
 
 # Charger
-odm/firmware/fastchg/23814/charging_hyper_mode_config.txt
-odm/firmware/fastchg/23814/silicon_1_charging_hyper_mode_config.txt
-odm/firmware/fastchg/charge_time_config.csv
-odm/firmware/fastchg/silicon_1_batt_si_loss_config_table.txt
-odm/firmware/fastchg/silicon_1_bms_heating_config.txt
-odm/firmware/fastchg/silicon_1_charge_time_config.csv
-odm/firmware/fastchg/silicon_1_charging_thermal_config_default.txt
-odm/firmware/fastchg/silicon_1_smart_chg_config_table.txt
+odm/firmware/fastchg/23851/charging_hyper_mode_config.txt
+odm/firmware/fastchg/23851/silicon_x24_charging_hyper_mode_config.txt
+odm/firmware/fastchg/silicon_x24_bms_heating_config.txt
+odm/firmware/fastchg/silicon_x24_smart_chg_config_table.txt
 
 # Display (Pixelworks)
-odm/bin/hw/vendor.pixelworks.hardware.feature-service
-odm/bin/irisConfig
 odm/etc/displaycolorfeaturecfg.xml
-odm/etc/iris_configs.xml
-odm/etc/init/vendor.pixelworks.hardware.feature-service-lazy.rc
 odm/etc/plugin_config.xml
-odm/etc/vintf/manifest/vendor.pixelworks.hardware.display-service.xml
-odm/etc/vintf/manifest/vendor.pixelworks.hardware.feature-service.xml
-odm/lib64/libpwsoftirisPCS.so
-odm/lib64/libpwirisIoctlWrapper.so
-odm/lib64/libpwirisPCS.so
-odm/lib64/libpwiriscalibrate.so
 odm/lib64/libpwirisfeature.so
-odm/lib64/libpwirisfeaturehal.so
 odm/lib64/libpwirishalwrapper.so
-odm/lib64/libpwirispq.so
-odm/lib64/libpwirisservicei7.so
-odm/lib64/libpwirisservicei7p.so
-odm/lib64/libpwirisservicesi.so
-odm/lib64/vendor.pixelworks.hardware.display-V1-ndk.so
-odm/lib64/vendor.pixelworks.hardware.display-impl-i7.so
-odm/lib64/vendor.pixelworks.hardware.display-impl-i7p.so
-odm/lib64/vendor.pixelworks.hardware.display-impl-si.so
-odm/lib64/vendor.pixelworks.hardware.display-translate-V2-ndk.so
 odm/lib64/vendor.pixelworks.hardware.display@1.0.so
 odm/lib64/vendor.pixelworks.hardware.display@1.1.so
 odm/lib64/vendor.pixelworks.hardware.display@1.2.so
-odm/lib64/vendor.pixelworks.hardware.feature-V1-ndk.so
 odm/lib64/vendor.pixelworks.hardware.feature@1.0.so
 odm/lib64/vendor.pixelworks.hardware.feature@1.1.so
 
-# Display (Pixelworks firmware)
-odm/firmware/iris7p.fw
-odm/firmware/iris7p_ccf1.fw
-odm/firmware/iris7p_ccf2.fw
-odm/firmware/iris7p_ccf3.fw
-odm/firmware/pxlw_i7p_panel_AA567_P_3_A0004_dsc_cmd.fw
-odm/firmware/pxlw_i7p_vtdr6130_fhd_plus_vid.fw
-
 # Fingerprint firmware
-odm/vendor/firmware/uff_gx.b00
-odm/vendor/firmware/uff_gx.b01
-odm/vendor/firmware/uff_gx.b02
-odm/vendor/firmware/uff_gx.b03
-odm/vendor/firmware/uff_gx.b04
-odm/vendor/firmware/uff_gx.b05
-odm/vendor/firmware/uff_gx.b06
-odm/vendor/firmware/uff_gx.b07
-odm/vendor/firmware/uff_gx.b08
-odm/vendor/firmware/uff_gx.mdt
+odm/vendor/firmware/uff_jv.b00
+odm/vendor/firmware/uff_jv.b01
+odm/vendor/firmware/uff_jv.b02
+odm/vendor/firmware/uff_jv.b03
+odm/vendor/firmware/uff_jv.b04
+odm/vendor/firmware/uff_jv.b05
+odm/vendor/firmware/uff_jv.b06
+odm/vendor/firmware/uff_jv.b07
+odm/vendor/firmware/uff_jv.b08
+odm/vendor/firmware/uff_jv.mdt
 odm/vendor/firmware/uff_spi.b00
 odm/vendor/firmware/uff_spi.b01
 odm/vendor/firmware/uff_spi.b02
@@ -198,41 +144,51 @@ odm/vendor/firmware/uff_spi.b08
 odm/vendor/firmware/uff_spi.mdt
 
 # RIL
-vendor/lib64/vendor.oplus.hardware.radio-V2-ndk_platform.so
+vendor/lib64/vendor.oplus.hardware.radio-V2-ndk.so
 
 # Sensors config
-odm/etc/sensor/config/corvette_qrd_ois_system.json
+odm/etc/sensor/config/giulia_qrd_ois_system.json
 odm/etc/sensor/config/json_list
-odm/etc/sensor/config/lanai_mtp_ak09919.json
+odm/etc/sensor/config/lanai_mtp_alsps_hw_tcs3720.json
 odm/etc/sensor/config/lanai_mtp_alsps.json
-odm/etc/sensor/config/lanai_mtp_alsps_hw_sip3625_lron.json
 odm/etc/sensor/config/lanai_mtp_cct_rear.json
 odm/etc/sensor/config/lanai_mtp_freefall.json
 odm/etc/sensor/config/lanai_mtp_icm456xx_0.json
+odm/etc/sensor/config/lanai_mtp_mmc56x3x.json
+odm/etc/sensor/config/lanai_mtp_oplus_lay.json
+odm/etc/sensor/config/lanai_mtp_oplus_measurement.json
+odm/etc/sensor/config/lanai_mtp_oplus_rotation_detect.json
+odm/etc/sensor/config/lanai_mtp_oplus_sleep.json
+odm/etc/sensor/config/lanai_mtp_oplus_smart_prox.json
 odm/etc/sensor/config/lanai_mtp_pocket.json
 odm/etc/sensor/config/lux_aod.json
 odm/etc/sensor/sensor_config.json
 
 # Touchscreen firmware
-odm/firmware/tp/23814/FW_S3910_BOE.img
-odm/firmware/tp/23814/FW_S3910_BOE_FAE.img
-odm/firmware/tp/23814/FW_S3910_BOE_HBP.img
-odm/firmware/tp/23814/FW_S3910_BOE_HBP_FAE.img
-odm/firmware/tp/23814/libIfp.so
-odm/firmware/tp/23814/LIB_S3910_BOE_HBP_TS_ALGO.so
-odm/firmware/tp/23814/LIB_S3910_BOE_HBP_TS_HAL.so
-odm/firmware/tp/23814/LIMIT_S3910_BOE.img
-odm/firmware/tp/23814/LIMIT_S3910_BOE_AGING.img
-odm/firmware/tp/23814/LIMIT_S3910_BOE_HBP.img
-odm/firmware/tp/23814/LIMIT_S3910_BOE_HBP_AGING.img
-odm/firmware/tp/23814/model.tflite
-odm/firmware/tp/23814/sys_edge_touch_config.xml
-odm/firmware/tp/23814/sys_touch_algo_feature_config.xml
-odm/firmware/tp/23814/sys_touch_function_feature_config.xml
+odm/firmware/tp/23851/FW_S3910_BOE_FAE.img
+odm/firmware/tp/23851/FW_S3910_BOE_HBP_FAE.img
+odm/firmware/tp/23851/FW_S3910_BOE_HBP.img
+odm/firmware/tp/23851/FW_S3910_BOE.img
+odm/firmware/tp/23851/GloveDetect.tflite
+odm/firmware/tp/23851/libaifilm.so
+odm/firmware/tp/23851/libIfp.so
+odm/firmware/tp/23851/LIB_S3910_BOE_HBP_TS_ALGO_HWASAN.so
+odm/firmware/tp/23851/LIB_S3910_BOE_HBP_TS_ALGO.so
+odm/firmware/tp/23851/LIB_S3910_BOE_HBP_TS_HAL.so
+odm/firmware/tp/23851/LIMIT_S3910_BOE_AGING.img
+odm/firmware/tp/23851/LIMIT_S3910_BOE_HBP_AGING.img
+odm/firmware/tp/23851/LIMIT_S3910_BOE_HBP.img
+odm/firmware/tp/23851/LIMIT_S3910_BOE.img
+odm/firmware/tp/23851/model.tflite
+odm/firmware/tp/23851/sys_edge_touch_config.xml
+odm/firmware/tp/23851/sys_touch_algo_feature_config.xml
+odm/firmware/tp/23851/sys_touch_function_feature_config.xml
+odm/firmware/tp/23851/sys_touch_scene_config.xml
 
 # UFS
-odm/firmware/ufs/MICRON-MT001TAYAX8U40.bin
-odm/firmware/ufs/SAMSUNG-KLUFG4NHHB-F0G1.bin
+odm/firmware/ufs/SAMSUNG-KLUEG4RHHF-F0G1.bin
+odm/firmware/ufs/SAMSUNG-KLUFG8RHHD-B0G1.bin
+odm/firmware/ufs/SAMSUNG-KLUGGARHHD-B0G1.bin
 
 # WiFi
 odm/etc/wifi/kiwi/bdwlan.elf
