@@ -29,6 +29,7 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)-kernel/kernel
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)-kernel/dtb.img
 
 INLINE_KERNEL_BUILDING := true
+TARGET_KERNEL_SOURCE := $(DEVICE_PATH)-kernel/kernel-headers
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)-kernel/dtb.img:$(TARGET_COPY_OUT)/dtb.img \
