@@ -190,6 +190,9 @@ odm/firmware/ufs/SAMSUNG-KLUEG4RHHF-F0G1.bin
 odm/firmware/ufs/SAMSUNG-KLUFG8RHHD-B0G1.bin
 odm/firmware/ufs/SAMSUNG-KLUGGARHHD-B0G1.bin
 
+# Vibrator
+odm/etc/aac_richtap.config
+
 # WiFi
 odm/etc/wifi/kiwi/bdwlan.elf
 odm/etc/wifi/kiwi/regdb.bin
