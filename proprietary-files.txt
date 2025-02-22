@@ -97,12 +97,9 @@ odm/lib64/camera/com.qti.tuned.sunny_imx355.bin
 odm/lib64/camera/com.qti.tuned.sunny_imx480.bin
 odm/lib64/camera/com.qti.tuned.sunny_imx906.bin
 odm/lib64/camera/com.qti.tuned.sunny_ov02b.bin
-odm/lib64/libremosaic_wrapper.so
 odm/lib64/libVDBayerHDR.so
 odm/lib64/libVDExternal.so
 odm/lib64/libVDSuperPhotoAPI.so
-vendor/lib64/libRGBC.so
-vendor/lib64/libSonyIMX471RmscLibrary.so
 
 # Charger
 odm/firmware/fastchg/23851/charging_hyper_mode_config.txt
@@ -113,13 +110,6 @@ odm/firmware/fastchg/silicon_x24_smart_chg_config_table.txt
 # Display (Pixelworks)
 odm/etc/displaycolorfeaturecfg.xml
 odm/etc/plugin_config.xml
-odm/lib64/libpwirisfeature.so
-odm/lib64/libpwirishalwrapper.so
-odm/lib64/vendor.pixelworks.hardware.display@1.0.so
-odm/lib64/vendor.pixelworks.hardware.display@1.1.so
-odm/lib64/vendor.pixelworks.hardware.display@1.2.so
-odm/lib64/vendor.pixelworks.hardware.feature@1.0.so
-odm/lib64/vendor.pixelworks.hardware.feature@1.1.so
 
 # Fingerprint firmware
 odm/vendor/firmware/uff_jv.b00
@@ -142,9 +132,6 @@ odm/vendor/firmware/uff_spi.b06
 odm/vendor/firmware/uff_spi.b07
 odm/vendor/firmware/uff_spi.b08
 odm/vendor/firmware/uff_spi.mdt
-
-# RIL
-vendor/lib64/vendor.oplus.hardware.radio-V2-ndk.so
 
 # Sensors config
 odm/etc/sensor/config/giulia_qrd_ois_system.json
